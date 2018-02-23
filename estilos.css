@@ -1,0 +1,72 @@
+/*estilos.css*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(114, 110, 110);
+    background-image: url(../images/pattern.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+header{
+    height: 95px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(images/imagen1.jpg);
+    max-width: 1000px;
+}
+
+
+.contenedor{
+    background-color: rgb(65, 103, 136);
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.botonera{
+    padding: 15px, 15px;
+}
+
+.botonera-lista{
+    float: left;
+    list-style-type: none;
+    width: 100%;
+    background-color: rgb(250, 125, 42);
+}
+
+.botonera-lista a{
+    font-size: 2em;
+    display: block;
+    float: left;
+    padding: 2px 8px;
+    border-right: 1px solid rgb(212, 201, 181);
+}
+
+.botonera-lista a:hover{
+    background-color: rgb(175, 113, 113)
+}
+
+
+.sobremi{
+    background-color: aqua;
+}
+
+.principales{
+    background-color: goldenrod;
+    width: 100%;
+
+}
+
+.parte{
+    background-color: gold;
+    width: 33.333%;
+    float: left;
+}
+
+/*MEDIA QUERY ACA*/
